@@ -1,0 +1,14 @@
+To initial an account, the cmd used is
+geth --datadir . account new
+
+account 1 -> 0x69842CA998AC4D8e95909b6446e793D06A385E8d
+password -> password
+
+account 2 -> 0xDb1D78B12132193edFc2BDcd710D77689e3ef0AE
+
+account 3 -> 0xE24F938a1474f452f3A36ce1efb1Ce13AE5EC64E
+
+ls keystore cmd will show you the account addresses you've created
+
+cmd -> geth --datadir . account list 
+this cmd will show you the list of accounts exisiting
